@@ -1,0 +1,28 @@
+.div-primary-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem;
+  color: var(--primary-500);
+}
+
+.div-signature {
+  font-size: 1.5rem;
+}
+
+.div-nav-items {
+  display: flex;
+  gap: 2rem;
+  font-size: 1rem;
+}
+
+.div-socialmedia-items {
+  display: flex;
+  gap: 1rem;
+}
+
+.media-links {
+  max-width: 1.875rem;
+  max-height: 1.875rem;
+}

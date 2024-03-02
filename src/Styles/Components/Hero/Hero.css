@@ -1,0 +1,36 @@
+.div-hero {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.div-content {
+  width: 40%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+#description-4 {
+  font-size: 1.75rem;
+  font-weight: 500;
+  font-style: normal;
+}
+
+#description-3 {
+  font-size: 6.25rem;
+  font-weight: 800;
+  font-style: normal;
+}
+
+#description-2 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.div-img-hero {
+  width: 28rem;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}

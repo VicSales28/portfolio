@@ -1,13 +1,170 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* This file is used to define global style rules that affect the entire application */
+
+/* Typography */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Color Guidance */
+
+:root {
+
+  --primary-50: #ebe8ea;
+
+  --primary-100: #c0b9be;
+
+  --primary-200: #a1979e;
+
+  --primary-300: #766872;
+
+  --primary-400: #5c4a56;
+
+  --primary-500: #331d2c;
+
+  --primary-600: #2e1a28;
+
+  --primary-700: #24151f;
+
+  --primary-800: #1c1018;
+
+  --primary-900: #150c12;
+
+
+  --secondary-50: #fcfbfd;
+
+  --secondary-100: #f5f2f9;
+
+  --secondary-200: #f0ecf6;
+
+  --secondary-300: #eae3f2;
+
+  --secondary-400: #e5ddf0;
+
+  --secondary-500: #dfd5ec;
+
+  --secondary-600: #cbc2d7;
+
+  --secondary-700: #9e97a8;
+
+  --secondary-800: #7b7582;
+
+  --secondary-900: #5e5963;
+
+  
+  --tertiary-50: #f6f3f4;
+
+  --tertiary-100: #e4d8de;
+
+  --tertiary-200: #d7c6ce;
+
+  --tertiary-300: #c4abb8;
+
+  --tertiary-400: #b99baa;
+
+  --tertiary-500: #a78295;
+
+  --tertiary-600: #987688;
+
+  --tertiary-700: #775c6a;
+
+  --tertiary-800: #5c4852;
+
+  --tertiary-900: #46373f;
+
+
+  --quaternary-50: #fffcfa;
+
+  --quaternary-100: #fef5ef;
+
+  --quaternary-200: #fdf1e8;
+
+  --quaternary-300: #fceadd;
+
+  --tertiary-400: #fce6d6;
+
+  --quaternary-500: #fbe0cc;
+
+  --quaternary-600: #e4ccba;
+
+  --quaternary-700: #b29f91;
+
+  --quaternary-800: #8a7b70;
+
+  --quaternary-900: #695e56;
+ 
+
+  --neutral-50: #eaeced;
+
+  --neutral-100: #bec3c7;
+
+  --neutral-200: #9fa6ac;
+
+  --neutral-300: #737e86;
+
+  --neutral-400: #58656f;
+
+  --neutral-500: #2e3e4b;
+
+  --neutral-600: #2a3844;
+
+  --neutral-700: #212c35;
+
+  --neutral-800: #192229;
+
+  --neutral-900: #131a20;
+}
+
+/* Box model */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Scrollbar styles */
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--quaternary-200);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--quaternary-800);
+  border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--quaternary-700);
+  border-radius: 0.5rem;
 }
