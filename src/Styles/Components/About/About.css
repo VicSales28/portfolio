@@ -1,24 +1,24 @@
 .about-div {
-  padding-top: 3rem;
   padding-left: 10%;
   padding-right: 10%;
+  padding-top: 3rem;
 }
 
 #about-title {
-  font-size: 6.25rem;
   color: var(--graphite-gray);
+  font-size: 6.25rem;
 }
 
 .about-content-div {
-  padding-top: 2rem;
   color: var(--primary-500);
+  padding-top: 2rem;
 }
 
 .chart-section {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
+  display: flex;
   font-size: 1.5rem;
+  justify-content: space-between;
   line-height: 2.75rem;
 }
 
@@ -28,10 +28,10 @@
 }
 
 .coding-section {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
+  display: flex;
   font-size: 1.5rem;
+  justify-content: space-between;
   line-height: 2.75rem;
 }
 
@@ -41,10 +41,10 @@
 }
 
 .wireframe-section {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
+  display: flex;
   font-size: 1.5rem;
+  justify-content: space-between;
   line-height: 2.75rem;
 }
 

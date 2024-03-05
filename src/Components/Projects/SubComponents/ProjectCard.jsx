@@ -6,11 +6,9 @@ const ProjectCard = ({ image, title, tags, description, githubLink, deployLink, 
 
       <div className="project-card-header"><img src={image} alt={title} /></div>
 
-      <div className="project-card-content ">
+      <div className="project-card-content">
         <div className="project-title poppins-medium">{title}</div>
         <div className="project-tags poppins-regular">{tags}</div>
-
-
         <div className="project-description poppins-regular">{description}</div>
       </div>
 

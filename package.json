@@ -16,7 +16,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint:css": "stylelint 'src/**/*.css'",
+    "lint:css:fix": "stylelint 'src/**/*.css' --fix"
   },
   "eslintConfig": {
     "extends": [
@@ -35,5 +37,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "stylelint": "^16.2.1",
+    "stylelint-config-standard": "^36.0.0",
+    "stylelint-order": "^6.0.4"
   }
 }

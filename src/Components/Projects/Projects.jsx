@@ -43,7 +43,7 @@ const Projects = () => {
       <div className="filter-buttons">
         <FilterBtn buttonText="Web Development" onClick={() => setSelectedFilter('development')} />
         <FilterBtn buttonText="Data Analysis" onClick={() => setSelectedFilter('analysis')} />
-        <FilterBtn buttonText="UX/UI Design" onClick={() => setSelectedFilter('uxui')} />
+        <FilterBtn buttonText="UX|UI Design" onClick={() => setSelectedFilter('uxui')} />
       </div>
 
       <div className='project-cards-container'>

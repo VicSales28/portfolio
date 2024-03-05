@@ -1,5 +1,4 @@
 /* This file is used to define the main structure of the application */
-
-.App {
+.app {
   background-color: var(--quaternary-500);
 }
