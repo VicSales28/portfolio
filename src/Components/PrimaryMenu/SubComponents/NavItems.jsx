@@ -3,21 +3,21 @@ import { Link } from 'react-scroll';
 
 const NavItems = () => {
   return (
-    <div className="div-nav-items">
+    <section className="section-nav-items">
 
-          <Link activeClass="active" spy={true} smooth={true} to="about" duration={500}>
+          <Link className="nav-link" activeClass="active" spy={true} smooth={true} to="about-title" duration={500}>
             About
           </Link>
 
-          <Link activeClass="active" spy={true} smooth={true} to="projects" duration={500}>
+          <Link className="nav-link" activeClass="active" spy={true} smooth={true} to="projects-title" duration={500}>
             Projects
           </Link>
 
-          <Link activeClass="active" spy={true} smooth={true} to="contacts" duration={500}>
+          <Link className="nav-link" activeClass="active" spy={true} smooth={true} to="contacts-title" duration={500}>
             Contacts
           </Link>
 
-    </div>
+    </section>
   );
 };
 

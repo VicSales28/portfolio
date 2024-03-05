@@ -1,36 +1,113 @@
+/* Hero Div Layout */
+
 .div-hero {
   display: flex;
   justify-content: space-evenly;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding: 2rem 0;
+  color: var(--primary-500);
+  /* Top and bottom padding */
 }
 
-.div-content {
+/* Text Content Style */
+
+.section-content {
   width: 40%;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 5.75rem;
+  padding-bottom: 1rem;
 }
 
-#description-4 {
+/* Style of Descriptive Texts */
+
+#hero-description-3 {
   font-size: 1.75rem;
   font-weight: 500;
-  font-style: normal;
 }
 
-#description-3 {
+#hero-description-2 {
   font-size: 6.25rem;
   font-weight: 800;
-  font-style: normal;
+  line-height: 7.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
-#description-2 {
+#hero-description-1 {
   font-size: 1.25rem;
   font-weight: 500;
-  font-style: normal;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
 }
 
-.div-img-hero {
-  width: 28rem;
+/* Button Style */
+
+.hero-btn {
+  width: 25rem;
+  height: 4.25rem;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  position: relative;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.rtgle1-hero-btn,
+.rtgle2-hero-btn {
+  position: absolute;
+  border-radius: 6px;
+  transition: all 0.3s;
+}
+
+.rtgle1-hero-btn {
+  top: 0;
+  bottom: 10px;
+  left: 0;
+  right: 25px;
+  background: var(--soft-rose);
+}
+
+.rtgle2-hero-btn {
+  top: 10px;
+  bottom: 0;
+  left: 25px;
+  right: 0;
+  border: 1px solid var(--primary-500);
+}
+
+#text-hero-btn {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.20rem;
+  color: var(--primary-500);
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.hero-btn:hover .rtgle1-hero-btn {
+  background: var(--quaternary-500);
+}
+
+.hero-btn:hover .rtgle2-hero-btn {
+  background: var(--soft-rose);
+  border-color: var(--primary-500);
+}
+
+.hero-btn:hover #text-hero-btn {
+  top: calc(75% - 11px);
+  left: calc(50% + 1.95px);
+}
+
+/* Main Image Style */
+
+#img-hero {
+  width: 32rem;
   padding-top: 3rem;
   padding-bottom: 5rem;
+  transition: transform 0.3s ease;
+}
+
+#img-hero:hover {
+  transform: scale(1.10);
 }

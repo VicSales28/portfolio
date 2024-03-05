@@ -1,0 +1,54 @@
+.about-div {
+  padding-top: 3rem;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#about-title {
+  font-size: 6.25rem;
+  color: var(--graphite-gray);
+}
+
+.about-content-div {
+  padding-top: 2rem;
+  color: var(--primary-500);
+}
+
+.chart-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  line-height: 2.75rem;
+}
+
+#chart-image {
+  padding: 0.25rem;
+  padding-left: 6.5rem;
+}
+
+.coding-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  line-height: 2.75rem;
+}
+
+#coding-image {
+  padding: 0.25rem;
+  padding-right: 6.5rem;
+}
+
+.wireframe-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  line-height: 2.75rem;
+}
+
+#wireframe-image {
+  padding: 0.25rem;
+  padding-left: 6.5rem;
+}

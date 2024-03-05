@@ -1,0 +1,99 @@
+.contacts-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10rem;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.contacts-title {
+  font-size: 6.25rem;
+  color: var(--graphite-gray);
+}
+
+.contacts-section {
+  display: flex;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  gap: 2rem;
+}
+
+.contacts-info,
+.contacts-image {
+  width: 50%;
+}
+
+.contacts-info {
+padding: 1rem;
+}
+
+
+.contacts-info p {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: var(--primary-500);
+  padding-bottom: 2rem;
+}
+
+.social-btn {
+  width: 12rem;
+  height: 4.25rem;
+  border: none;
+  background: none;
+  padding:0;
+  margin: 0.25rem;
+  cursor: pointer;
+  position: relative;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.rtgle1-social-btn,
+.rtgle2-social-btn {
+  position: absolute;
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+
+.rtgle1-social-btn {
+  top: 0;
+  bottom: 8px;
+  left: 0;
+  right: 18px;
+  background: var(--desert-sand);
+}
+
+.rtgle2-social-btn {
+  top: 8px;
+  bottom: 0;
+  left: 18px;
+  right: 0;
+  border: 1px solid var(--primary-500);
+}
+
+#text-social-btn {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1rem;
+  text-decoration: none;
+  transition: all 0.3s;
+  color: var(--primary-500);
+}
+
+.social-btn:hover .rtgle1-social-btn {
+  background: var(--quaternary-500);
+}
+
+.social-btn:hover .rtgle2-social-btn {
+  background: var(--desert-sand);
+  border-color: var(--primary-500);
+}
+
+.social-btn:hover #text-social-btn {
+  top: calc(75% - 11px);
+  left: calc(50% + 1.95px);
+}

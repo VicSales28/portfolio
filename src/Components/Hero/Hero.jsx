@@ -1,6 +1,7 @@
 import React from 'react';
 
 import PortraitSVG from '../../Styles/Assets/Pictures/SVG/portrait.svg';
+import HeroButton from './SubComponents/HeroBtn';
 import { descriptionsData } from '../../Data/Descriptions';
 
 import '../../Styles/Components/Hero/Hero.css';
@@ -9,18 +10,19 @@ const Hero = () => {
   return (
     <div className="div-hero">
 
-      <div className="div-content">
+      <section className="section-content">
         {descriptionsData
           .filter(item => item.section === 'hero')
           .map(item => (
-            <p key={item.id} id={`description-${item.id}`}>{item.description}</p>
+            <p key={item.id} id={`hero-description-${item.id}`}>{item.description}</p>
           ))}
-        <button id="hero-btn">Send me a message</button>
-      </div>
 
-      <div>
-        <img src={PortraitSVG} alt="Portfolio Owner" className="div-img-hero" />
-      </div>
+        <HeroButton />
+      </section>
+
+      <section>
+        <img src={PortraitSVG} alt="Portfolio Owner" id="img-hero" />
+      </section>
 
     </div>
   );

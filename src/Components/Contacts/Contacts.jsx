@@ -3,31 +3,57 @@ import React from 'react';
 import { descriptionsData } from '../../Data/Descriptions';
 import Preview from '../../Styles/Assets/Pictures/SVG/github-preview.svg';
 
+import Linkedin from '../../Styles/Assets/Icons/linkedin-icon-02.svg';
+import Gmail from '../../Styles/Assets/Icons/gmal-icon-01.svg';
+import GitHub from '../../Styles/Assets/Icons/github-icon-02.svg';
+
+import SocialButton from './SubComponents/SocialBtn';
+
+import "../../Styles/Components/Contacts/Contacts.css";
+
 const Contacts = () => {
   const descriptionData = descriptionsData.find(item => item.section === 'contacts');
 
   return (
-    <div>
+    <div className="contacts-container">
 
-      <h2>Contacts</h2>
+      <p className="contacts-title poppins-extrabold">
+        contacts.
+      </p>
 
-      <div className="contact-info">
+      <section className="contacts-section">
 
-        <div>
+        <div className="contacts-info poppins-regular">
           <p>{descriptionData.description}</p>
+
+<div>
+          <SocialButton
+            buttonText="Linkedin"
+            href="https://www.linkedin.com/in/victoria-sales-dev/"
+            svgImage={Linkedin}
+          />
+          <SocialButton
+            buttonText="Gmail"
+            href="mailto:contatovictoriasales@gmail.com"
+            svgImage={Gmail}
+          />
+          <SocialButton
+            buttonText="GitHub"
+            href="https://github.com/VicSales28?tab=projects"
+            svgImage={GitHub}
+          />
+          </div>
         </div>
 
-        <div className="contact-buttons">
-          <button>Linkedin</button>
-          <button>Gmail</button>
-          <button>GitHub</button>
+        <div className="contacts-image">
+          <img
+            src={Preview}
+            alt="A computer screen displaying the GitHub profile of the portfolio owner"
+          />
         </div>
 
-      </div>
+      </section>
 
-      <div className="contact-image">
-        <img src={Preview} alt="A computer screen displaying the GitHub profile of the portfolio owner" />
-      </div>
     </div>
   );
 };

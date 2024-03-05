@@ -7,17 +7,25 @@
   color: var(--primary-500);
 }
 
-.div-signature {
+.section-signature {
   font-size: 1.5rem;
 }
 
-.div-nav-items {
+.section-nav-items {
   display: flex;
   gap: 2rem;
   font-size: 1rem;
 }
 
-.div-socialmedia-items {
+.nav-link {
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+}
+
+.section-socialmedia-items {
   display: flex;
   gap: 1rem;
 }

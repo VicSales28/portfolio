@@ -5,7 +5,7 @@ import GitHub from '../../../Styles/Assets/Icons/github-icon-01.svg';
 
 const NavItems = () => {
   return (
-    <div className="div-socialmedia-items">
+    <section className="section-socialmedia-items">
 
       <a
         href="https://www.linkedin.com/in/victoria-sales-dev/"
@@ -23,7 +23,7 @@ const NavItems = () => {
         <img src={GitHub} alt="Link to access the portfolio owners GitHub" className="media-links" />
       </a>
 
-    </div>
+    </section>
   );
 };
 

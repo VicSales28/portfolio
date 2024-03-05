@@ -2,11 +2,11 @@ import React from 'react';
 
 const Signature = () => {
   return (
-    <div className="div-signature">
+    <section className="section-signature">
 
       <p className="poppins-semibold">Victoria Sales</p>
 
-    </div>
+    </section>
   );
 };
 
