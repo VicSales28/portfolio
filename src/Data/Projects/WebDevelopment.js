@@ -12,7 +12,7 @@ import eleven from '../../Styles/Assets/Pictures/PNG/WebDevelopment/RPG.png';
 import twelve from '../../Styles/Assets/Pictures/PNG/WebDevelopment/TFC.png';
 // import thirteen from '';
 
-export const projectsData = [
+export const developmentData = [
   // {
   //   id: 13,
   //   projectName: '',
@@ -28,7 +28,7 @@ export const projectsData = [
     id: 12,
     projectName: 'Futebol Clube',
     projectDesc: 'TFC is an informative football site. I built a dockerized backend with Sequelize data modeling, following project frontend usage guidelines.',
-    tags: 'TypeScript - NodeJS - Sequelize - Sinon&Chai',
+    tags: 'TypeScript - Node.js - Sequelize',
     availableCode: true,
     code: 'https://github.com/VicSales28/project-futebol-clube',
     availableDeploy: false,
@@ -50,7 +50,7 @@ export const projectsData = [
     id: 10,
     projectName: 'Store Manager',
     projectDesc: 'Developed sales management app with CRUD operations for products and sales. Built using a layered software architecture (MSC).',
-    tags: 'NodeJS - ExpressJS - Mocha - MySQL - Docker',
+    tags: 'Node.js - MySQL - Docker',
     availableCode: true,
     code: 'https://github.com/VicSales28/project-store-manager',
     availableDeploy: false,

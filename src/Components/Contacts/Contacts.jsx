@@ -26,22 +26,22 @@ const Contacts = () => {
         <div className="contacts-info poppins-regular">
           <p>{descriptionData.description}</p>
 
-<div>
-          <SocialButton
-            buttonText="Linkedin"
-            href="https://www.linkedin.com/in/victoria-sales-dev/"
-            svgImage={Linkedin}
-          />
-          <SocialButton
-            buttonText="Gmail"
-            href="mailto:contatovictoriasales@gmail.com"
-            svgImage={Gmail}
-          />
-          <SocialButton
-            buttonText="GitHub"
-            href="https://github.com/VicSales28?tab=projects"
-            svgImage={GitHub}
-          />
+          <div>
+            <SocialButton
+              buttonText="Linkedin"
+              href="https://www.linkedin.com/in/victoria-sales-dev/"
+              svgImage={Linkedin}
+            />
+            <SocialButton
+              buttonText="Gmail"
+              href="mailto:contatovictoriasales@gmail.com"
+              svgImage={Gmail}
+            />
+            <SocialButton
+              buttonText="GitHub"
+              href="https://github.com/VicSales28?tab=projects"
+              svgImage={GitHub}
+            />
           </div>
         </div>
 

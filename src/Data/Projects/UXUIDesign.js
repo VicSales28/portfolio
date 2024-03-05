@@ -3,7 +3,7 @@ import two from '../../Styles/Assets/Pictures/PNG/UXUIDesign/gooday.gif';
 import three from '../../Styles/Assets/Pictures/PNG/UXUIDesign/umi.gif';
 // import four from '';
 
-export const projectsData = [
+export const uxuiData = [
   // {
   //   id: 4,
   //   projectName: '',
