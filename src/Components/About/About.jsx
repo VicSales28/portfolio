@@ -18,7 +18,7 @@ const About = () => {
         about.
       </p>
 
-      <div className="about-content-div">
+      <div className="about-content-div hide-sm">
 
         <section className="chart-section">
           {renderDescription(descriptionsData, 'about', 8)}

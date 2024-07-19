@@ -26,7 +26,7 @@ const Contacts = () => {
         <div className="contacts-info poppins-regular">
           <p>{descriptionData.description}</p>
 
-          <div>
+          <div className='hide-sm'>
             <SocialButton
               buttonText="Linkedin"
               href="https://www.linkedin.com/in/victoria-sales-dev/"
@@ -42,6 +42,21 @@ const Contacts = () => {
               href="https://github.com/VicSales28?tab=projects"
               svgImage={GitHub}
             />
+          </div>
+
+          <div className='liks-mobile hide-lg'>
+            <a href="https://www.linkedin.com/in/victoria-sales-dev/">
+              <img src={Linkedin} alt="GitHub" />
+            </a>
+
+            <a href="mailto:contatovictoriasales@gmail.com">
+              <img src={Gmail} alt="GitHub" />
+            </a>
+
+            <a href="https://github.com/VicSales28?tab=projects">
+              <img src={GitHub} alt="GitHub" />
+            </a>
+
           </div>
         </div>
 

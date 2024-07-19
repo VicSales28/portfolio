@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import ProjectCard from './SubComponents/ProjectCard';
 import FilterBtn from './SubComponents/FilterBtn';
+import FilterDropdown from './SubComponents/FilterDropDown';
 
 import { developmentData } from '../../Data/Projects/WebDevelopment';
 import { analisysData } from '../../Data/Projects/DataAnalysis';
@@ -39,12 +40,13 @@ const Projects = () => {
         <img src={Draft} alt='Draft illustration' />
       </div>
 
-
-      <div className="filter-buttons">
+      <div className="filter-buttons hide-sm">
         <FilterBtn buttonText="Web Development" onClick={() => setSelectedFilter('development')} />
         <FilterBtn buttonText="Data Analysis" onClick={() => setSelectedFilter('analysis')} />
         <FilterBtn buttonText="UX|UI Design" onClick={() => setSelectedFilter('uxui')} />
       </div>
+
+      <FilterDropdown selectedFilter={selectedFilter} onSelectFilter={setSelectedFilter} />
 
       <div className='project-cards-container'>
         {projectsToRender.map(project => (

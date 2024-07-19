@@ -1,0 +1,14 @@
+.footer-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+@media (max-width: 600px) {
+  .footer-section p {
+    font-size: 0.75rem;
+}
+
+}
