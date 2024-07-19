@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a91cf530.css",
-    "main.js": "/portfolio/static/js/main.105fbb5b.js",
+    "main.css": "/portfolio/static/css/main.e7ad1c00.css",
+    "main.js": "/portfolio/static/js/main.b34ee0a0.js",
     "static/media/store-manager.gif": "/portfolio/static/media/store-manager.19fff934822aaf64986a.gif",
     "static/media/playtunes.gif": "/portfolio/static/media/playtunes.6102d5be1fc9f7b3089c.gif",
     "static/media/workforce-and-customers.gif": "/portfolio/static/media/workforce-and-customers.29e24874c85ff49e8dad.gif",
@@ -17,28 +17,41 @@
     "static/media/pixels-art.gif": "/portfolio/static/media/pixels-art.2c0c748fb26093ed68b4.gif",
     "static/media/digital-wallet.gif": "/portfolio/static/media/digital-wallet.0ffea223113f8e219cd8.gif",
     "static/media/pokedex-with-rtl.png": "/portfolio/static/media/pokedex-with-rtl.751fcbaf98700588eea2.png",
+    "static/media/fa-solid-900.ttf": "/portfolio/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
     "static/media/northwind.png": "/portfolio/static/media/northwind.3f21e0967148b7e967f7.png",
+    "static/media/fa-brands-400.ttf": "/portfolio/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
     "static/media/RPG.png": "/portfolio/static/media/RPG.76a5cc6a061da6bb0512.png",
+    "static/media/fa-solid-900.woff2": "/portfolio/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
     "static/media/portrait.svg": "/portfolio/static/media/portrait.92222dd81c55ab69938c585e51a9c537.svg",
     "static/media/sql-challenges.png": "/portfolio/static/media/sql-challenges.b6ad9bd0150531e3a5db.png",
+    "static/media/fa-brands-400.woff2": "/portfolio/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
     "static/media/spotifyclone.png": "/portfolio/static/media/spotifyclone.6e6feca3e5bdd48a3077.png",
     "static/media/to-do-list.png": "/portfolio/static/media/to-do-list.f2adbd4dee4070ed7e76.png",
     "static/media/TFC.png": "/portfolio/static/media/TFC.f18777f0d9bdd3a01ef1.png",
+    "static/media/fa-regular-400.ttf": "/portfolio/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
     "static/media/coding.svg": "/portfolio/static/media/coding.105eef52f72cae28e913b11075ef9600.svg",
     "static/media/wireframe.svg": "/portfolio/static/media/wireframe.bb134ed60d956c8b9640c824edd587bb.svg",
     "static/media/charts.svg": "/portfolio/static/media/charts.4e213e1481bca5ccaa3384c093b82c78.svg",
+    "static/media/fa-regular-400.woff2": "/portfolio/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/CRS-interface.png": "/portfolio/static/media/CRS-interface.2e99dca60f480337f0b8.png",
+    "static/media/fa-v4compatibility.ttf": "/portfolio/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/CRS-logo.png": "/portfolio/static/media/CRS-logo.fb57a004944f12140f91.png",
+    "static/media/fa-v4compatibility.woff2": "/portfolio/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "static/media/github-icon-01.svg": "/portfolio/static/media/github-icon-01.4e9aeb934c6a35bac43e2a94beade98b.svg",
     "static/media/github-icon-02.svg": "/portfolio/static/media/github-icon-02.6ec5c007f4ef70d13e5cdf9b4c68185a.svg",
+    "static/media/sparkle.svg": "/portfolio/static/media/sparkle.2cae7298bbf175de67f586e8a907305d.svg",
     "static/media/linkedin-icon-01.svg": "/portfolio/static/media/linkedin-icon-01.95f356a2c08d2d8db545fa1198be0413.svg",
     "static/media/linkedin-icon-02.svg": "/portfolio/static/media/linkedin-icon-02.c3aabb0af0f7778bcf1983a5565abceb.svg",
+    "static/media/close-vector.svg": "/portfolio/static/media/close-vector.6dbc555de2c3b4d0168c15658c5f4753.svg",
+    "static/media/menu-vector.svg": "/portfolio/static/media/menu-vector.e6485c3a19da63145201464d6804af1b.svg",
     "static/media/gmal-icon-01.svg": "/portfolio/static/media/gmal-icon-01.3fd07c06837ac7d16913b7f223891531.svg",
     "static/media/draft.svg": "/portfolio/static/media/draft.993510a22514e0d5ff7084ebfa452e43.svg",
     "index.html": "/portfolio/index.html",
-    "main.a91cf530.css.map": "/portfolio/static/css/main.a91cf530.css.map",
-    "main.105fbb5b.js.map": "/portfolio/static/js/main.105fbb5b.js.map"
+    "main.e7ad1c00.css.map": "/portfolio/static/css/main.e7ad1c00.css.map",
+    "main.b34ee0a0.js.map": "/portfolio/static/js/main.b34ee0a0.js.map"
   },
   "entrypoints": [
-    "static/css/main.a91cf530.css",
-    "static/js/main.105fbb5b.js"
+    "static/css/main.e7ad1c00.css",
+    "static/js/main.b34ee0a0.js"
   ]
 }
