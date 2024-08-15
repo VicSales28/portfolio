@@ -1,11 +1,12 @@
 import one from '../../Styles/Assets/Pictures/PNG/UXUIDesign/artdeco.gif';
 import two from '../../Styles/Assets/Pictures/PNG/UXUIDesign/gooday.gif';
 import three from '../../Styles/Assets/Pictures/PNG/UXUIDesign/umi.gif';
-// import four from '';
+import four from '../../Styles/Assets/Pictures/PNG/UXUIDesign/adopet.gif';
+// import five from '';
 
 export const uxuiData = [
-  // {
-  //   id: 4,
+    // {
+  //   id: 5,
   //   projectName: '',
   //   projectDesc: '',
   //   tags: '',
@@ -13,6 +14,17 @@ export const uxuiData = [
   //   deploy: '',
   //   image: four,
   // },
+ {
+    id: 4,
+    projectName: 'Adopet',
+    projectDesc: 'Adopet is a Service Design Driven app that connects pet lovers with adoption services, community engagement and exclusive pet care deals',
+    tags: 'Figma',
+    availableCode: false,
+    code: '',
+    availableDeploy: true,
+    deploy: 'https://www.figma.com/community/file/1405946269057626377',
+    image: four,
+  },
   {
     id: 3,
     projectName: 'UMI',

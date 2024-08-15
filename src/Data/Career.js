@@ -21,7 +21,7 @@ export const jobsData = [
     images: [one,two],
     availableSetofImgs: true,
     role: 'Front-end Developer',
-    roleDesc: "I'm responsable for the design and development of the Payroll & HR Management system interface focusing on user experience",
+    roleDesc: "As part of the development team, I handle both the design and front-end development of the Payroll & HR Management system, focusing on user experience and prototyping",
     company: 'CRS Technologies',
     period: 'April, 2024 - Now',
   },
