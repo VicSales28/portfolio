@@ -2,7 +2,7 @@ export const descriptionsData = [
   {
     id: 9,
     section: 'contacts',
-    description: "Sinta-se à vontade para me enviar uma mensagem a qualquer momento. Estou animada para colaborar em projetos interessantes e ajudar a dar vida digital às suas ideias!",
+    description: "Sinta-se à vontade para me enviar uma mensagem a qualquer momento. Estou animada para colaborar em projetos interessantes e ajudar a dar vida às suas ideias!",
   },
   {
     id: 8,
