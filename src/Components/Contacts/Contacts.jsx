@@ -1,24 +1,29 @@
 import React from 'react';
 
-import { descriptionsData } from '../../Data/Descriptions';
-import Preview from '../../Styles/Assets/Pictures/SVG/github-preview.svg';
+import SocialButton from './SubComponents/SocialBtn';
 
+import { useLanguage } from '../../ContextAPI/LanguageContext';
+import { descriptionsData as descriptionsDataEN } from '../../Data/English/Descriptions';
+import { descriptionsData as descriptionsDataPT } from '../../Data/Portuguese/Descriptions';
+import Preview from '../../Styles/Assets/Pictures/SVG/github-preview.svg';
 import Linkedin from '../../Styles/Assets/Icons/linkedin-icon-02.svg';
 import Gmail from '../../Styles/Assets/Icons/gmal-icon-01.svg';
 import GitHub from '../../Styles/Assets/Icons/github-icon-02.svg';
 
-import SocialButton from './SubComponents/SocialBtn';
-
 import "../../Styles/Components/Contacts/Contacts.css";
 
 const Contacts = () => {
+  const { language, contactsTitle } = useLanguage();
+
+  const descriptionsData = language === 'EN' ? descriptionsDataEN : descriptionsDataPT;
+
   const descriptionData = descriptionsData.find(item => item.section === 'contacts');
 
   return (
     <div className="contacts-container">
 
       <p className="contacts-title poppins-extrabold">
-        contacts.
+        {contactsTitle.contacts}
       </p>
 
       <section className="contacts-section">

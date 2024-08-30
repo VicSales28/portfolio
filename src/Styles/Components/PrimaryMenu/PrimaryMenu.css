@@ -78,6 +78,27 @@
   animation: slide-down 0.5s forwards;
 }
 
+/* Translate Button Style */
+.translate-btn {
+  background-color: transparent;
+  border: var(--primary-500) 1px solid;
+  border-radius: 0.25rem;
+  color: var(--primary-500);
+  cursor: pointer;
+  font-size: 0.75rem;
+  padding: 0.2rem;
+  height: 2rem;
+}
+
+.translate-btn:hover {
+  background-color: var(--soft-rose);
+}
+
+.translate-btn:active {
+  background-color: var(--soft-rose);
+  font-weight: 600;
+}
+
 @media (max-width: 600px) {
   .hide-sm {
     display: none;

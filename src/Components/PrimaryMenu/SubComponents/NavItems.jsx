@@ -1,25 +1,28 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 
+import { useLanguage } from '../../../ContextAPI/LanguageContext';
+
 const NavItems = () => {
+  const { navItems } = useLanguage();
   return (
     <section className="section-nav-items hide-sm">
 
           <Link className="nav-link" activeClass="active" spy={true} smooth={true} to="about-title" duration={500}>
-            About
+            {navItems.about}
           </Link>
 
           <Link className="nav-link" activeClass="active" spy={true} smooth={true} to="career-title" duration={500}>
-            Projects
+            {navItems.projects}
           </Link>
 
 
           <Link className="nav-link hide-lg" activeClass="active" spy={true} smooth={true} to="contacts-title" duration={500}>
-            Career
+            {navItems.career}
           </Link>
 
           <Link className="nav-link" activeClass="active" spy={true} smooth={true} to="contacts-title" duration={500}>
-            Contacts
+            {navItems.contacts}
           </Link>
 
     </section>

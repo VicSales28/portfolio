@@ -1,15 +1,15 @@
-import one from '../../Styles/Assets/Pictures/PNG/WebDevelopment/to-do-list.png';
-import two from '../../Styles/Assets/Pictures/PNG/WebDevelopment/pixels-art.gif';
-import three from '../../Styles/Assets/Pictures/PNG/WebDevelopment/solar-system.gif';
-import four from '../../Styles/Assets/Pictures/PNG/WebDevelopment/tryunfo.gif';
-import five from '../../Styles/Assets/Pictures/PNG/WebDevelopment/playtunes.gif';
-import six from '../../Styles/Assets/Pictures/PNG/WebDevelopment/pokedex-with-rtl.png';
-import seven from '../../Styles/Assets/Pictures/PNG/WebDevelopment/digital-wallet.gif';
-import eight from '../../Styles/Assets/Pictures/PNG/WebDevelopment/trivia.gif';
-import nine from '../../Styles/Assets/Pictures/PNG/WebDevelopment/planets-search.gif';
-import ten from '../../Styles/Assets/Pictures/PNG/WebDevelopment/store-manager.gif';
-import eleven from '../../Styles/Assets/Pictures/PNG/WebDevelopment/RPG.png';
-import twelve from '../../Styles/Assets/Pictures/PNG/WebDevelopment/TFC.png';
+import one from '../../../Styles/Assets/Pictures/PNG/WebDevelopment/to-do-list.png';
+import two from '../../../Styles/Assets/Pictures/PNG/WebDevelopment/pixels-art.gif';
+import three from '../../../Styles/Assets/Pictures/PNG/WebDevelopment/solar-system.gif';
+import four from '../../../Styles/Assets/Pictures/PNG/WebDevelopment/tryunfo.gif';
+import five from '../../../Styles/Assets/Pictures/PNG/WebDevelopment/playtunes.gif';
+import six from '../../../Styles/Assets/Pictures/PNG/WebDevelopment/pokedex-with-rtl.png';
+import seven from '../../../Styles/Assets/Pictures/PNG/WebDevelopment/digital-wallet.gif';
+import eight from '../../../Styles/Assets/Pictures/PNG/WebDevelopment/trivia.gif';
+import nine from '../../../Styles/Assets/Pictures/PNG/WebDevelopment/planets-search.gif';
+import ten from '../../../Styles/Assets/Pictures/PNG/WebDevelopment/store-manager.gif';
+import eleven from '../../../Styles/Assets/Pictures/PNG/WebDevelopment/RPG.png';
+import twelve from '../../../Styles/Assets/Pictures/PNG/WebDevelopment/TFC.png';
 // import thirteen from '';
 
 export const developmentData = [
@@ -27,7 +27,7 @@ export const developmentData = [
   {
     id: 12,
     projectName: 'Futebol Clube',
-    projectDesc: 'TFC is an informative football site. I built a dockerized backend with Sequelize data modeling, following project frontend usage guidelines.',
+    projectDesc: 'O TFC é um website sobre futebol. Usa um backend dockerizado com modelagem de dados do Sequelize, seguindo as diretrizes de uso do frontend do projeto.',
     tags: 'TypeScript - Node.js - Sequelize',
     availableCode: true,
     code: 'https://github.com/VicSales28/project-futebol-clube',
@@ -38,7 +38,7 @@ export const developmentData = [
   {
     id: 11,
     projectName: 'RPG Game',
-    projectDesc: 'Created RPG game with fantasy-adventure elements during Object-Oriented Programming studies at Trybe Programming School.',
+    projectDesc: 'Criei um jogo RPG com elementos de fantasia e aventura durante os estudos de Programação Orientada a Objetos na Escola de Programação Trybe.',
     tags: 'TypeScript - POO',
     availableCode: true,
     code: 'https://github.com/VicSales28/project-rpg-game',
@@ -49,7 +49,7 @@ export const developmentData = [
   {
     id: 10,
     projectName: 'Store Manager',
-    projectDesc: 'Developed sales management app with CRUD operations for products and sales. Built using a layered software architecture (MSC).',
+    projectDesc: 'Desenvolvi uma aplicação de gerenciamento de vendas com operações CRUD para produtos e vendas. Foi usada uma arquitetura de software em camadas (MSC).',
     tags: 'Node.js - MySQL - Docker',
     availableCode: true,
     code: 'https://github.com/VicSales28/project-store-manager',
@@ -60,7 +60,7 @@ export const developmentData = [
   {
     id: 9,
     projectName: 'Starwars Planets Search',
-    projectDesc: 'App fetches Star Wars planets data from an API, populating a filterable table with details like population, orbital period, diameter, etc.',
+    projectDesc: 'Esta aplicação busca dados dos planetas do universo Star Wars de uma API, preenchendo uma tabela filtrável.',
     tags: 'React - Context API - React Hooks ',
     availableCode: true,
     code: 'https://github.com/VicSales28/project-starwars-planets-search',
@@ -71,7 +71,7 @@ export const developmentData = [
   {
     id: 8,
     projectName: 'Trivia Master',
-    projectDesc: 'Quiz game inspired by Trivia. Log in, answer questions within time limit, view score based on correct answers and check ranking.',
+    projectDesc: 'Quiz inspirado em Trivia. Faça seu login, responda perguntas dentro do limite de tempo, veja a pontuação com base nas respostas corretas e verifique a classificação.',
     tags: 'React - Redux - React Testing Library',
     availableCode: true,
     code: 'https://github.com/VicSales28/project-trivia',
@@ -82,7 +82,7 @@ export const developmentData = [
   {
     id: 7,
     projectName: 'Digital Wallet',
-    projectDesc: 'Expense tracker designed with currency converter. Add/remove expenses, view them in table format, and track total spending converted.',
+    projectDesc: 'Rastreador de despesas projetado com conversor de moeda. Adicione/remova despesas, visualize-as em formato de tabela e rastreie o gasto total convertido.',
     tags: 'React - Redux - React Testing Library',
     availableCode: true,
     code: 'https://github.com/VicSales28/project-digital-wallet',
@@ -93,7 +93,7 @@ export const developmentData = [
   {
     id: 6,
     projectName: 'Pokédex with RTL',
-    projectDesc: 'Tests were developed for a React app using Jest and RTL. The app simulates a Pokédex, and the tests ensure requirement accuracy.',
+    projectDesc: 'Foram desenvolvidos testes para uma aplicação React usando Jest e RTL. O projeto simula uma Pokédex, e os testes garantem a precisão dos requisitos.',
     tags: 'React - React Testing Library - Jest',
     availableCode: true,
     code: 'https://github.com/VicSales28/project-pokedex-with-RLT',
@@ -104,7 +104,7 @@ export const developmentData = [
   {
     id: 5,
     projectName: 'PlayTunes',
-    projectDesc: 'Discover music by famous artists & bands. Search albums, play tracks and favorite songs using this app powered by Apple Music API.',
+    projectDesc: 'Descubra músicas de artistas e bandas famosas. Pesquise álbuns, reproduza faixas e músicas favoritas usando esta aplicação integrada com Apple Music API.',
     tags: 'React - React Router - Bootstrap',
     availableCode: true,
     code: 'https://github.com/VicSales28/project-playtunes',
@@ -115,7 +115,7 @@ export const developmentData = [
   {
     id: 4,
     projectName: 'Ninja Cards',
-    projectDesc: 'The user can create a customized ninja-themed deck inspired by Uzumaki Naruto and explore the gallery that showcases their unique cards.',
+    projectDesc: 'O usuário pode criar um baralho personalizado com tema ninja inspirado em Naruto Uzumaki e explorar a galeria que exibe suas cartas exclusivas.',
     tags: 'React - Bulma - JavaScript',
     availableCode: true,
     code: 'https://github.com/VicSales28/project-tryunfo',
@@ -126,7 +126,7 @@ export const developmentData = [
   {
     id: 3,
     projectName: 'Solar System',
-    projectDesc: 'A basic model of the Solar System using JSX in React. The user can view all the planets and cards with information about space missions.',
+    projectDesc: 'Um modelo do Sistema Solar usando JSX em React. O usuário pode visualizar todos os planetas e cards com informações sobre missões espaciais.',
     tags: 'React - HTML - CSS - JavaScript',
     availableCode: true,
     code: 'https://github.com/VicSales28/project-solar-system',
@@ -137,7 +137,7 @@ export const developmentData = [
   {
     id: 2,
     projectName: 'Pixels Art',
-    projectDesc: 'A pixel art editor, using LocalStorage to save drawings. The user can choose a color from a palette and paint whatever he wants on a whiteboard.',
+    projectDesc: 'Um editor de pixel art, usando LocalStorage para salvar desenhos. O usuário pode escolher uma cor de uma paleta e pintar o que quiser em um quadro.',
     tags: 'HTML - CSS - JavaScript',
     availableCode: true,
     code: 'https://github.com/VicSales28/project-pixels-art',
@@ -148,7 +148,7 @@ export const developmentData = [
   {
     id: 1,
     projectName: 'To Do List',
-    projectDesc: 'A basic to-do list, using Local Storage to save items. The user can use it to organize his daily tasks: adding, moving order and deleting tasks.',
+    projectDesc: 'Uma lista de tarefas, usando o Local Storage para salvar itens. O usuário pode usá-lo para organizar suas tarefas: adicionar, mover ordem e excluir tarefas.',
     tags: 'HTML - CSS - JavaScript',
     availableCode: true,
     code: 'https://github.com/VicSales28/project-to-do-list',

@@ -1,5 +1,5 @@
-import one from '../Styles/Assets/Pictures/PNG/Career/CRS-interface.png';
-import two from '../Styles/Assets/Pictures/PNG/Career/CRS-logo.png';
+import one from '../../Styles/Assets/Pictures/PNG/Career/CRS-interface.png';
+import two from '../../Styles/Assets/Pictures/PNG/Career/CRS-logo.png';
 // import three from '../Styles/Assets/Pictures/PNG/Career/';
 
 export const jobsData = [

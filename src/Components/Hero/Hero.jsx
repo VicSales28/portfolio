@@ -1,12 +1,19 @@
 import React from 'react';
 
-import PortraitSVG from '../../Styles/Assets/Pictures/SVG/portrait.svg';
 import HeroButton from './SubComponents/HeroBtn';
-import { descriptionsData } from '../../Data/Descriptions';
+
+import { useLanguage } from '../../ContextAPI/LanguageContext';
+import { descriptionsData  as descriptionsDataEN } from '../../Data/English/Descriptions';
+import { descriptionsData as descriptionsDataPT } from '../../Data/Portuguese/Descriptions';
+import PortraitSVG from '../../Styles/Assets/Pictures/SVG/portrait.svg';
 
 import '../../Styles/Components/Hero/Hero.css';
 
 const Hero = () => {
+  const { language } = useLanguage();
+
+  const descriptionsData = language === 'EN' ? descriptionsDataEN : descriptionsDataPT;
+
   return (
     <div className="div-hero">
 

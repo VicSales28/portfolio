@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+
 import '../../../Styles/Components/Projects/Projects.css';
 
 const FilterDropdown = ({ selectedFilter, onSelectFilter }) => {

@@ -1,11 +1,13 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 
+import { useLanguage } from '../../../ContextAPI/LanguageContext';
 import Linkedin from '../../../Styles/Assets/Icons/linkedin-icon-01.svg';
 import GitHub from '../../../Styles/Assets/Icons/github-icon-01.svg';
 import Close from '../../../Styles/Assets/Icons/close-vector.svg';
 
 const DropDownItems = ({ onCloseClick }) => {
+  const { language, toggleLanguage } = useLanguage();
   return (
     <section className="section-dropdown hide-lg">
 
@@ -27,6 +29,10 @@ const DropDownItems = ({ onCloseClick }) => {
 
       <Link className="nav-link" activeClass="active" spy={true} smooth={true} to="contacts-title" duration={500}>
         Contacts
+      </Link>
+
+      <Link className="nav-link" onClick={toggleLanguage}>
+        Language ({language === 'EN' ? 'PT' : 'EN'})
       </Link>
 
       <div className="section-socialmedia-items">

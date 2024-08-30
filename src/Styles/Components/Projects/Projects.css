@@ -286,6 +286,10 @@
     padding-top: 1rem;
   }
 
+  .project-description {
+    font-size: 0.65rem;
+  }
+
 }
 
 @media (min-width: 600px) {

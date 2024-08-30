@@ -1,33 +1,32 @@
 import React, { useState } from 'react';
+
 import ProjectCard from './SubComponents/ProjectCard';
 import FilterBtn from './SubComponents/FilterBtn';
 import FilterDropdown from './SubComponents/FilterDropDown';
 
-import { developmentData } from '../../Data/Projects/WebDevelopment';
-import { analisysData } from '../../Data/Projects/DataAnalysis';
-import { uxuiData } from '../../Data/Projects/UXUIDesign';
-
+import { useLanguage } from '../../ContextAPI/LanguageContext';
 import Draft from "../../Styles/Assets/Illustrations/draft.svg";
 
 import '../../Styles/Components/Projects/Projects.css';
 
 const Projects = () => {
   const [selectedFilter, setSelectedFilter] = useState('development');
+  const { projectsData, projectsTitle } = useLanguage();
 
   let projectsToRender = [];
 
   switch (selectedFilter) {
     case 'development':
-      projectsToRender = developmentData;
+      projectsToRender = projectsData.development;
       break;
     case 'analysis':
-      projectsToRender = analisysData;
+      projectsToRender = projectsData.analysis;
       break;
     case 'uxui':
-      projectsToRender = uxuiData;
+      projectsToRender = projectsData.uxui;
       break;
     default:
-      projectsToRender = developmentData;
+      projectsToRender = projectsData.development;
   }
 
   return (
@@ -35,7 +34,7 @@ const Projects = () => {
 
       <div className='projects-header'>
         <p className='projects-title poppins-extrabold'>
-          projects.
+          {projectsTitle.projects}
         </p>
         <img src={Draft} alt='Draft illustration' />
       </div>

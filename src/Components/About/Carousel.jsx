@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import { useSwipeable } from 'react-swipeable';
 
+import { useLanguage } from '../../ContextAPI/LanguageContext';
 import { renderDescription } from './Utils/DescriptionRenderUtils';
-import { descriptionsData } from '../../Data/Descriptions';
-
+import { descriptionsData as descriptionsDataEN } from '../../Data/English/Descriptions';
+import { descriptionsData as descriptionsDataPT } from '../../Data/Portuguese/Descriptions';
 import Charts from '../../Styles/Assets/Illustrations/charts.svg';
 import Coding from '../../Styles/Assets/Illustrations/coding.svg';
 import Wireframe from '../../Styles/Assets/Illustrations/wireframe.svg';
@@ -11,7 +12,10 @@ import Wireframe from '../../Styles/Assets/Illustrations/wireframe.svg';
 import "../../Styles/Components/About/About.css";
 
 const Carousel = () => {
+  const { language } = useLanguage();
   const [index, setIndex] = useState(0);
+
+  const descriptionsData = language === 'EN' ? descriptionsDataEN : descriptionsDataPT;
 
   const swipeableSections = [
     <div className="swipeable-section" key="chart">

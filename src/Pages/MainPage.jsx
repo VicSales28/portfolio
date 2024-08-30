@@ -8,6 +8,7 @@ import Projects from '../Components/Projects/Projects';
 import Career from '../Components/Career/Career';
 import Contacts from '../Components/Contacts/Contacts';
 import Footer from '../Components/Footer/Footer';
+import ScrollToTopBtn from '../Components/Features/ScrollToTopBtn';
 
 
 const MainPage = () => {
@@ -21,6 +22,7 @@ const MainPage = () => {
       <Career />
       <Contacts />
       <Footer />
+      <ScrollToTopBtn />
     </div>
   );
 };

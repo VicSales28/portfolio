@@ -1,7 +1,7 @@
-import one from '../../Styles/Assets/Pictures/PNG/UXUIDesign/artdeco.gif';
-import two from '../../Styles/Assets/Pictures/PNG/UXUIDesign/gooday.gif';
-import three from '../../Styles/Assets/Pictures/PNG/UXUIDesign/umi.gif';
-import four from '../../Styles/Assets/Pictures/PNG/UXUIDesign/adopet.gif';
+import one from '../../../Styles/Assets/Pictures/PNG/UXUIDesign/artdeco.gif';
+import two from '../../../Styles/Assets/Pictures/PNG/UXUIDesign/gooday.gif';
+import three from '../../../Styles/Assets/Pictures/PNG/UXUIDesign/umi.gif';
+import four from '../../../Styles/Assets/Pictures/PNG/UXUIDesign/adopet.gif';
 // import five from '';
 
 export const uxuiData = [
@@ -17,7 +17,7 @@ export const uxuiData = [
  {
     id: 4,
     projectName: 'Adopet',
-    projectDesc: 'Adopet is a Service Design Driven app that connects pet lovers with adoption services, community engagement and exclusive pet care deals',
+    projectDesc: 'Adopet é um app de design de serviço que conecta amantes de animais de estimação com serviços de adoção, engajamento na comunidade e ofertas exclusivas de cuidados para pets.',
     tags: 'Figma',
     availableCode: false,
     code: '',
@@ -28,7 +28,7 @@ export const uxuiData = [
   {
     id: 3,
     projectName: 'UMI',
-    projectDesc: "Website of a Japonese Cuisine specialized in business catering.",
+    projectDesc: "Website de uma cozinha japonesa especializada em catering empresarial.",
     tags: 'Figma',
     availableCode: false,
     code: '',
@@ -39,7 +39,7 @@ export const uxuiData = [
   {
     id: 2,
     projectName: 'Gooday',
-    projectDesc: 'Gooday is an app for those seeking a healthy and active lifestyle, combining healthy eating, exercise, healthcare professionals, and events.',
+    projectDesc: 'Gooday é um app para quem busca um estilo de vida saudável e ativo, combinando alimentação saudável, exercícios, profissionais de saúde e eventos.',
     tags: 'Figma',
     availableCode: false,
     code: '',
@@ -50,7 +50,7 @@ export const uxuiData = [
   {
     id: 1,
     projectName: 'Art Deco',
-    projectDesc: 'A design briefing for the website of an interior decoration store.',
+    projectDesc: 'Um briefing de design para o website de uma loja de decoração de interiores.',
     tags: 'Figma',
     availableCode: false,
     code: '',

@@ -1,8 +1,8 @@
-import one from '../../Styles/Assets/Pictures/PNG/DataAnalysis/northwind.png';
-import two from '../../Styles/Assets/Pictures/PNG/DataAnalysis/sql-challenges.png';
-import three from '../../Styles/Assets/Pictures/PNG/DataAnalysis/spotifyclone.png';
-import four from '../../Styles/Assets/Pictures/PNG/DataAnalysis/workforce-and-customers.gif';
-import five from '../../Styles/Assets/Pictures/PNG/DataAnalysis/revenue.gif';
+import one from '../../../Styles/Assets/Pictures/PNG/DataAnalysis/northwind.png';
+import two from '../../../Styles/Assets/Pictures/PNG/DataAnalysis/sql-challenges.png';
+import three from '../../../Styles/Assets/Pictures/PNG/DataAnalysis/spotifyclone.png';
+import four from '../../../Styles/Assets/Pictures/PNG/DataAnalysis/workforce-and-customers.gif';
+import five from '../../../Styles/Assets/Pictures/PNG/DataAnalysis/revenue.gif';
 // import six from '';
 
 export const analisysData = [

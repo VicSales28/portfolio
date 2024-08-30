@@ -117,6 +117,18 @@
     align-items: center;
   }
 
+  .job-details .role {
+    font-size: 0.95rem;
+  }
+
+  .job-details .role-desc {
+    font-size: 0.8rem;
+  }
+
+  .job-details .company {
+    font-size: 0.85rem;
+  }
+
 }
 
 @media (min-width: 600px) {

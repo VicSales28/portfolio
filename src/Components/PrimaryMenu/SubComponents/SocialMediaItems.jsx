@@ -1,8 +1,11 @@
 import React from 'react';
 
+import TranslateBtn from './TranslateBtn';
+
 import Linkedin from '../../../Styles/Assets/Icons/linkedin-icon-01.svg';
 import GitHub from '../../../Styles/Assets/Icons/github-icon-01.svg';
 import Menu from '../../../Styles/Assets/Icons/menu-vector.svg';
+
 
 const NavItems = ({ onMenuClick }) => {
   return (
@@ -28,6 +31,8 @@ const NavItems = ({ onMenuClick }) => {
       <div className="section-socialmedia-items hide-lg">
         <img src={Menu} alt="Menu icon" onClick={onMenuClick} />
       </div>
+
+      <TranslateBtn />
 
     </section>
   );

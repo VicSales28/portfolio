@@ -1,6 +1,9 @@
 import React from 'react';
 
+import { useLanguage } from '../../../ContextAPI/LanguageContext';
+
 const HeroButton = () => {
+  const { messages } = useLanguage();
   return (
     <button className="hero-btn">
       <div className="rtgle1-hero-btn"></div>
@@ -11,7 +14,7 @@ const HeroButton = () => {
         rel="noreferrer"
         id="text-hero-btn"
         className="poppins-regular">
-        Send me a message
+        {messages.buttonText}
       </a>
     </button>
   );
