@@ -43,7 +43,7 @@ export const projectsTitle = {
     projects: 'projects.',
   },
   PT: {
-    projetos: 'projetos.',
+    projects: 'projetos.',
   },
 };
 
