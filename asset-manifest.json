@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e7ad1c00.css",
-    "main.js": "/portfolio/static/js/main.1db44d95.js",
+    "main.css": "/portfolio/static/css/main.54ba3932.css",
+    "main.js": "/portfolio/static/js/main.fbd850d2.js",
     "static/media/store-manager.gif": "/portfolio/static/media/store-manager.19fff934822aaf64986a.gif",
     "static/media/playtunes.gif": "/portfolio/static/media/playtunes.6102d5be1fc9f7b3089c.gif",
     "static/media/workforce-and-customers.gif": "/portfolio/static/media/workforce-and-customers.29e24874c85ff49e8dad.gif",
@@ -48,11 +48,11 @@
     "static/media/gmal-icon-01.svg": "/portfolio/static/media/gmal-icon-01.3fd07c06837ac7d16913b7f223891531.svg",
     "static/media/draft.svg": "/portfolio/static/media/draft.993510a22514e0d5ff7084ebfa452e43.svg",
     "index.html": "/portfolio/index.html",
-    "main.e7ad1c00.css.map": "/portfolio/static/css/main.e7ad1c00.css.map",
-    "main.1db44d95.js.map": "/portfolio/static/js/main.1db44d95.js.map"
+    "main.54ba3932.css.map": "/portfolio/static/css/main.54ba3932.css.map",
+    "main.fbd850d2.js.map": "/portfolio/static/js/main.fbd850d2.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7ad1c00.css",
-    "static/js/main.1db44d95.js"
+    "static/css/main.54ba3932.css",
+    "static/js/main.fbd850d2.js"
   ]
 }
