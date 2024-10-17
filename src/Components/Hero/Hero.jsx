@@ -28,7 +28,7 @@ const Hero = () => {
       </section>
 
       <section>
-        <img src={PortraitSVG} alt="Portfolio Owner" id="img-hero" />
+        <img src={PortraitSVG} alt="Portfolio Owner" id="img-hero" title="Victoria Sales Matos" />
       </section>
 
     </div>

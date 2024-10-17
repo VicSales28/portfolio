@@ -80,13 +80,13 @@
 
 .job-details .company {
   font-size: 1.25rem;
-  color: var(--primary-400);
+  color: var(--primary-600);
   padding-top: 0.55rem;
 }
 
 .job-details .period {
   font-size: 0.875rem;
-  color: var(--primary-200);
+  color: var(--primary-400);
   padding-top: 0.25rem;
 }
 
@@ -109,7 +109,7 @@
   }
 
   .career-header img {
-    width: 1.5rem;
+    width: 1.75rem;
   }
 
   .jobs-section {
